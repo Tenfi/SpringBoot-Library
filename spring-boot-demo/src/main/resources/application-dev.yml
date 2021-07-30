@@ -1,0 +1,24 @@
+urlEnv:
+  url: 127.0.0.1
+  port: 8080
+
+school:
+  address: wuhan
+  name: wuda
+
+teacher:
+  school:
+    address : ${school.address}
+    name : ${school.name}
+  student:
+    boy:
+        name: Tenfi
+        age: 21
+        subjects:
+          - math
+          - pe
+    girl:
+        name: Tom
+        age: 12
+        subjects:
+          - math
